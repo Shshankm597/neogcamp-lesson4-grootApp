@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,400;1,700&display=swap');
+
+/* adding custom font for nav and footer  */
+@font-face {
+    font-family: "customFont";
+    src: url("/fonts/TOBACCO.ttf");
+    }
+
+:root {
+    --primaryColor: #9C9078;
+    --secondaryColor: #5A7139;
+}
+body {
+    font-family: 'Source Code Pro', monospace;
+    margin: 0px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+textarea {
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 3rem;
+    font-size: medium;
+    font-family: inherit;
+    font-weight: 10;
+}
+
+#outputDiv {
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 1rem;
+    font-size: medium;
+    font-family: inherit;
+    text-align: start;
+}
+
+.navigation {
+    background-color: var(--primaryColor);
+    padding: 0rem;
+    text-align: center;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .nav-brand {
+    font-family: 'customFont';
+    color: var(--secondaryColor);
+    font-weight: normal;
+    font-size: 5rem;
+    display: inline;
+}
+
+.navigation .nav-img {
+    max-width: 160px;
+    display: inline;
+    margin-right: auto;
+    align-self: start;
+    margin-top: -4rem;
+    margin-bottom: -5.5rem;
+
+}
+
+#btn-translate {
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+    border: none;
+    border-radius: 1rem;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Source Code Pro', monospace;
+    font-size: large;
+    font-weight: bold;
+}
+
+#output-heading {
+    font-weight: bolder;
+    font-size: large;
+    color: var(--secondaryColor);
+}
+.img {
+    max-width: 80px;
+    display: block;
+    margin: auto;
+    float: right;
+}
+
+.footer {
+    background-color: var(--primaryColor);
+    color: var(--secondaryColor);
+    padding: 1rem;
+    margin-top: 3rem;
+    border-top-right-radius: 1rem;
+}
+
+.footer .footer-header {
+    font-family: 'customFont';
+    font-size: 3rem; 
+}
