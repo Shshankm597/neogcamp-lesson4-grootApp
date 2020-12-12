@@ -87,9 +87,10 @@ textarea {
     color: var(--secondaryColor);
 }
 .img {
-    max-width: 80px;
+    max-width: 135px;
     display: block;
     margin: auto;
+    margin-right: 1rem;
     float: right;
 }
 
